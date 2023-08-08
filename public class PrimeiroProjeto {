@@ -1,0 +1,31 @@
+package primeiroprojeto;
+
+import java.util.Scanner;
+
+ public class PrimeiroProjeto {
+
+    public static void main(String[] args) {
+        
+        System.out.println("Digite sua idade");
+        Scanner entrada = new Scanner(System.in);
+        Scanner entradaStr = new Scanner(System.in);
+          
+        int idade = entrada.nextInt();
+     
+        System.out.println("Digite seu peso: ");
+        double peso = entrada.nextDouble();
+        
+        System.out.println("Digite seu nome: ");
+        String nome = entradaStr.nextLine();
+        
+        System.out.println("Digite seu sexo: ");
+        char sexo = entrada.next().charAt(0);
+     
+        
+        System.out.println("Sua idade é: " + idade + "\nSeu peso é: " + peso+ "\nSeu nome é: " +nome+ "\nSeu sexo: "+sexo);
+        
+        
+        
+        
+    }
+}
